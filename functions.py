@@ -13,3 +13,6 @@ def SwapFileData():
 
     with open(fileTwoData, 'w') as sampleB:
         data_sampleB.write(data_sampleA)
+
+        
+SwapFileData()        
